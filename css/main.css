@@ -1,0 +1,31 @@
+@charset "utf-8";
+#main{
+	background-image: url("../Image/Escenario.png");
+	background-repeat: no-repeat;
+	width: 1280px;
+	height: 720px;
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+	z-index: 0;
+}
+.personaje{
+	background-image: url("../Image/sprite sheet 101x107.png");
+	background-repeat: no-repeat;
+	width: 101px;
+	height: 107px;
+	position: relative;
+	top: 600px;
+	z-index: 1;
+	
+}
+.avion{
+	background-image: url("../Image/Avion.gif");
+	background-repeat: no-repeat;
+	width: 101px;
+	height: 67px;
+	position: relative;
+	top: -30px;
+	left: 1280px;
+	z-index: 2;
+}
